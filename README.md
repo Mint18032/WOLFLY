@@ -1,2 +1,4 @@
 # WOLFLY
-INT2215
+## A GAME PROJECT FOR INT2215 SUBJECT
+### created by Ngoc Minh
+
