@@ -1,6 +1,5 @@
 # WOLFLY
-## A GAME PROJECT OF INT2215 SUBJECT
-### created by Ngoc Minh
+## A GAME PROJECT OF INT2215 SUBJECT created by NGOC MINH
 Using C++ and [SDL2](https://www.libsdl.org/), [SDL_mixer](https://www.libsdl.org/projects/SDL_mixer/), [SDL_ttf](https://www.libsdl.org/projects/SDL_ttf/), [SDL_image](https://www.libsdl.org/projects/SDL_image/) development libraries.
 
 ### Description
