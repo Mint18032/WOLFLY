@@ -7,7 +7,7 @@ WOLFLY is a game which main character is a wolf flying in the sky. You would con
 
 ### Contributing
 * Buttons using in the game were designed by Iconixar from [flaticon.com](https://www.flaticon.com/)
-* star.png and moon.png are taken from [flaticon.com](https://www.flaticon.com/)
+* Star.png and moon.png are taken from [flaticon.com](https://www.flaticon.com/)
 * Background picture was downloaded from [pngio.com](https://pngio.com/png) and edited to fit
 * Sheep, wolf and background cloud were drawn using [Adobe Photoshop](https://www.adobe.com/products/photoshop.html)
 * Sound effects and music were downloaded [mixkit.co free stock music](https://mixkit.co/)
