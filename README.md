@@ -1,6 +1,6 @@
 # WOLFLY
 ## A GAME PROJECT OF INT2215 SUBJECT created by NGOC MINH
-Using C++ and [SDL2](https://www.libsdl.org/), [SDL_mixer](https://www.libsdl.org/projects/SDL_mixer/), [SDL_ttf](https://www.libsdl.org/projects/SDL_ttf/), [SDL_image](https://www.libsdl.org/projects/SDL_image/) development libraries.
+Using C/C++ and [SDL2](https://www.libsdl.org/), [SDL_mixer](https://www.libsdl.org/projects/SDL_mixer/), [SDL_ttf](https://www.libsdl.org/projects/SDL_ttf/), [SDL_image](https://www.libsdl.org/projects/SDL_image/) development libraries.
 
 ### Description
 WOLFLY is a game which main character is a wolf flying in the sky. You would control it by using up, down, left, right keys on your keyboard. The falling stars will kill the wolf while the sheep help you gain scores. It is okay to skip some sheep without eating them.
