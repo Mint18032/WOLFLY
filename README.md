@@ -14,3 +14,6 @@ WOLFLY is a game which main character is a wolf flying in the sky. You would con
 * Debrosee.ttf font was downloaded from [1001freefonts.com](https://www.1001freefonts.com/)
 * Lazy.ttf font was downloaded from [lazyfoo.net](https://lazyfoo.net/tutorials/SDL/16_true_type_fonts/index.php)  
 * Some functions such as functions in class Texture were refer to source code from [lazyfoo.net](https://lazyfoo.net/tutorials/SDL/index.php)
+
+### Read more
+Setting and function description: [README.txt](https://github.com/Mint18032/WOLFLY/blob/main/WOLFLY/README.txt)
