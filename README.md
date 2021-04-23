@@ -8,14 +8,12 @@ WOLFLY is a game which main character is a wolf flying in the sky. You would con
 ![](https://user-images.githubusercontent.com/79392486/115873463-2a1f0a80-a46d-11eb-9bef-2da82a01f857.png)
 ![](https://user-images.githubusercontent.com/79392486/115877153-53419a00-a471-11eb-9fd0-74145ad5301f.png)  ![](https://user-images.githubusercontent.com/79392486/115877162-55a3f400-a471-11eb-84d9-50b61b09697a.png)
 
-
-
 ### Contributing
 * Buttons using in the game were designed by Iconixar from [flaticon.com](https://www.flaticon.com/)
 * Star.png and moon.png are taken from [flaticon.com](https://www.flaticon.com/)
 * Background picture was downloaded from [pngio.com](https://pngio.com/png) and edited to fit
 * Sheep, wolf and background cloud were drawn using [Adobe Photoshop](https://www.adobe.com/products/photoshop.html)
-* Sound effects and music were downloaded [mixkit.co free stock music](https://mixkit.co/)
+* Sound effects and music were downloaded from [mixkit.co free stock music](https://mixkit.co/)
 * Debrosee.ttf font was downloaded from [1001freefonts.com](https://www.1001freefonts.com/)
 * Lazy.ttf font was downloaded from [lazyfoo.net](https://lazyfoo.net/tutorials/SDL/16_true_type_fonts/index.php)  
 * Some functions such as functions in class Texture were refer to source code from [lazyfoo.net](https://lazyfoo.net/tutorials/SDL/index.php)
