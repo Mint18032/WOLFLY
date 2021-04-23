@@ -6,7 +6,8 @@ Using C/C++ and [SDL2](https://www.libsdl.org/), [SDL_mixer](https://www.libsdl.
 WOLFLY is a game which main character is a wolf flying in the sky. You would control it by using up, down, left, right keys on your keyboard. The falling stars will kill the wolf while the sheep help you gain scores. It is okay to skip some sheep without eating them.
 
 ![](https://user-images.githubusercontent.com/79392486/115873463-2a1f0a80-a46d-11eb-9bef-2da82a01f857.png)
-![](https://user-images.githubusercontent.com/79392486/115874369-3b1c4b80-a46e-11eb-8a16-b8ea3af86719.png)![](https://user-images.githubusercontent.com/79392486/115873906-b2051480-a46d-11eb-854c-40529404959b.png)
+![](https://user-images.githubusercontent.com/79392486/115875499-78cda400-a46f-11eb-8e00-68d257072f26.png)![](https://user-images.githubusercontent.com/79392486/115875509-7cf9c180-a46f-11eb-972f-acd9040afc41.png)
+
 
 ### Contributing
 * Buttons using in the game were designed by Iconixar from [flaticon.com](https://www.flaticon.com/)
