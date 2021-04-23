@@ -1,8 +1,12 @@
 WOLFLY
 Hướng dẫn cài đặt
+1. Cài đặt môi trường:
+2. Chạy chương trình:
 
+*Lưu ý: Các tệp, thư mục nằm trong tệp WOLFLY bắt buộc phải có và không được thay đổi để chương trình không phát sinh lỗi khi chạy.
+Chức năng cụ thể đã được chú thích trong từng tệp.
 
-Các chức năng
+Các chức năng chính
 1. Màn hình Menu: 
 - Hai nút điều khiển nhạc nền và âm thanh (bao gồm tắt/bật toàn bộ hiệu ứng âm thanh và nhạc nền) được tách riêng thuận tiện hơn cho nhu cầu của người chơi.
 - Kỉ lục cao nhất được ghi trên góc phải màn hình.
@@ -35,12 +39,12 @@ Các chức năng
 - Thu phóng màn hình: màn hình có thể thu phóng nhưng luôn theo tỉ lệ 17:10, ấn phím ESC trên bàn phím để trở lại kích cỡ mặc định.
 - Lưu kỉ lục: tự động tạo file lưu kỉ lục trong lần đầu chạy chương trình và lưu kỉ lục đó đến khi đạt kỉ lục cao hơn.
 
-----------------------
+---------------------------------------------------------------------------------------------------------------------------------------
 (Engsub below)
 Setting
 
 
-Functions
+Main functions
 1. Menu screen:
 - Two buttons: background music controller and sound controller (including all sound effects and background music) are separated.
 - The highest score is rendered in the right corner of the screen.
