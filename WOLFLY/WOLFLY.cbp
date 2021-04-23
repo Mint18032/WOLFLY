@@ -53,8 +53,8 @@
 		<Unit filename="media/Background/main.png" />
 		<Unit filename="media/Background/moon.png" />
 		<Unit filename="media/Background/star.png" />
-		<Unit filename="media/Buttons/037-unmuted.png" />
-		<Unit filename="media/Buttons/039-muted.png" />
+		<Unit filename="media/Buttons/munmuted.png" />
+		<Unit filename="media/Buttons/mmuted.png" />
 		<Unit filename="media/Buttons/Continue.png" />
 		<Unit filename="media/Buttons/Paused.png" />
 		<Unit filename="media/Buttons/Play.png" />
@@ -83,7 +83,7 @@
 		<Unit filename="media/Sound/star.wav" />
 		<Unit filename="media/Text/Debrosee.ttf" />
 		<Unit filename="media/Text/lazy.ttf" />
-		<Unit filename="media/Text/score.bin" />
+		<Unit filename="media/Text/Size.bin" />
 		<Unit filename="menu.cpp" />
 		<Unit filename="menu.h" />
 		<Unit filename="preGame.h" />
