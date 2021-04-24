@@ -1,14 +1,15 @@
 WOLFLY
 Hướng dẫn cài đặt
 1. Cài đặt:
-- Chương trình sử dụng file project của Code::blocks.
-- Hãy chắc chắn rằng bạn đã tải đầy đủ Code::blocks, Mingw và các thư viện SDL2, SDL_image, SDL_ttf, SDL_mixer bản tương thích với thiết bị được sử dụng.
+- Chương trình sử dụng file project của Code::Blocks.
+- Hãy chắc chắn rằng bạn đã tải đầy đủ Code::Blocks, Mingw và các thư viện SDL2, SDL_image, SDL_ttf, SDL_mixer bản tương thích với thiết bị được sử dụng.
+- Tải thư mục WOLFLY và một trong 2 tệp trong thư mục SDL nếu chưa có: Trên Github https://github.com/Mint18032/WOLFLY trong mục "Code" màu xanh lá, chọn "Download zip".
 - Sửa lại đường dẫn vào file SDL:
 	+ Nếu bạn chưa có sẵn các thư viện liên kết (các file .dll) trong System, hãy lấy chúng từ SDL2/bin và thả vào thư mục WOLFLY hoặc System32 (với máy 32 bit)/SysWOW64 (với máy 64 bit).
-	+ Mở WOLFLY.cbp bằng Code::blocks, trong Project/Build options/Search directories/Compiler xóa đường dẫn cũ và thay bằng đường dẫn tới thư mục include/SDL2.
+	+ Mở WOLFLY.cbp bằng Code::Blocks, trong Project/Build options/Search directories/Compiler xóa đường dẫn cũ và thay bằng đường dẫn tới thư mục include/SDL2.
 					   trong Linkers xóa đường dẫn cũ và thay bằng đường dẫn tới thư mục lib ứng với các thư viện trên.
 2. Chạy chương trình:
-- Chọn Build/Rebuild trên thanh điều khiển (hoặc ấn Ctrl-F11), nếu không thành công hãy thử khởi động lại Code::blocks hoặc kiểm tra lại các thao tác.
+- Chọn Build/Rebuild trên thanh điều khiển (hoặc ấn Ctrl-F11), nếu không thành công hãy thử khởi động lại Code::Blocks hoặc kiểm tra lại các thao tác.
 - Sau khi build thành công thì chương trình có thể chạy.
 
 *Lưu ý: - Các tệp, thư mục nằm trong tệp WOLFLY bắt buộc phải có và không được thay đổi để chương trình không phát sinh lỗi khi chạy. Chức năng cụ thể đã được chú thích trong từng tệp.
@@ -51,15 +52,16 @@ Các chức năng chính
 (English)
 
 Setting
-- The program uses the project file of Code::blocks.
-- Make sure you have fully downloaded Code::blocks, Mingw, and SDL2, SDL_image, SDL_ttf, SDL_mixer libraries compatible with the device.
+- The program uses the project file of Code::Blocks.
+- Make sure you have fully downloaded Code::Blocks, Mingw, and SDL2, SDL_image, SDL_ttf, SDL_mixer libraries compatible with the device.
+- Download the WOLFLY folder and one of the 2 files in the SDL folder if your device does not have one: On Github https://github.com/Mint18032/WOLFLY click the green "Code" button, select "Download zip".
 - Modify the path to the SDL file:
 	+ If you do not have the dinamic linked library files of SDL (.dll files) in your Computer's System, get them from SDL2/bin and move them to WOLFLY or System32 (for 32 bit)/SysWOW64 (for 64 bit).
-	+ Open WOLFLY.cbp with Code::blocks, in Project/Build options/Search directories/Compiler delete the old path and replace it with the path to the directory include/SDL2.
+	+ Open WOLFLY.cbp with Code::Blocks, in Project/Build options/Search directories/Compiler delete the old path and replace it with the path to the directory include/SDL2.
 					     in Linkers delete the old path and replace it with the path to the lib directory corresponding to the above libraries.
 
 Run
-- You have to build the project before running it. Check your operations or restart Code::blocks if build failed.
+- You have to build the project before running it. Check your operations or restart Code::Blocks if build failed.
 - After having successfully built, the program should run properly.
 
 * Note: - The files and folders in the WOLFLY folder are required and must not be changed so that the program does not generate errors when running. Specific functionalities of these file have been annotated inside.
