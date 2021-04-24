@@ -9,7 +9,7 @@ WOLFLY is a game which main character is a wolf flying in the sky. You would con
 ![](https://user-images.githubusercontent.com/79392486/115877153-53419a00-a471-11eb-9fd0-74145ad5301f.png)  ![](https://user-images.githubusercontent.com/79392486/115877162-55a3f400-a471-11eb-84d9-50b61b09697a.png)
 
 ### Contributing
-* The program was built and run by [Code::Blocks](https://www.codeblocks.org/)
+* The program was built and run with [Code::Blocks](https://www.codeblocks.org/)
 * Buttons using in the game were designed by Iconixar from [flaticon.com](https://www.flaticon.com/)
 * Star.png and moon.png are taken from [flaticon.com](https://www.flaticon.com/)
 * Background picture was downloaded from [pngio.com](https://pngio.com/png) and edited to fit
