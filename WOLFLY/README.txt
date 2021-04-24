@@ -3,6 +3,7 @@ Hướng dẫn cài đặt
 1. Cài đặt:
 - Chương trình sử dụng file project của Code::Blocks.
 - Hãy chắc chắn rằng bạn đã tải đầy đủ Code::Blocks, Mingw và các thư viện SDL2, SDL_image, SDL_ttf, SDL_mixer bản tương thích với thiết bị được sử dụng.
+- Tải thư mục WOLFLY và một trong 2 tệp trong thư mục SDL nếu chưa có: Trên Github https://github.com/Mint18032/WOLFLY trong mục "Code" màu xanh lá, chọn "Download zip".
 - Sửa lại đường dẫn vào file SDL:
 	+ Nếu bạn chưa có sẵn các thư viện liên kết (các file .dll) trong System, hãy lấy chúng từ SDL2/bin và thả vào thư mục WOLFLY hoặc System32 (với máy 32 bit)/SysWOW64 (với máy 64 bit).
 	+ Mở WOLFLY.cbp bằng Code::Blocks, trong Project/Build options/Search directories/Compiler xóa đường dẫn cũ và thay bằng đường dẫn tới thư mục include/SDL2.
@@ -53,6 +54,7 @@ Các chức năng chính
 Setting
 - The program uses the project file of Code::Blocks.
 - Make sure you have fully downloaded Code::Blocks, Mingw, and SDL2, SDL_image, SDL_ttf, SDL_mixer libraries compatible with the device.
+- Download the WOLFLY folder and one of the 2 files in the SDL folder if your device does not have one: On Github https://github.com/Mint18032/WOLFLY click the green "Code" button, select "Download zip".
 - Modify the path to the SDL file:
 	+ If you do not have the dinamic linked library files of SDL (.dll files) in your Computer's System, get them from SDL2/bin and move them to WOLFLY or System32 (for 32 bit)/SysWOW64 (for 64 bit).
 	+ Open WOLFLY.cbp with Code::Blocks, in Project/Build options/Search directories/Compiler delete the old path and replace it with the path to the directory include/SDL2.
