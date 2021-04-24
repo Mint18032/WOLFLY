@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="WOLFLY" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/WOLFLY" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/WOLFLY" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=gnu++11" />
+			<Add directory="C:/MinGW/SDL2_32bit/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2" />
+			<Add option="-lSDL2_image -lSDL2_mixer" />
+			<Add option="-lSDL2_ttf" />
+			<Add directory="C:/MinGW/SDL2_32bit/lib" />
+		</Linker>
+		<Unit filename="MAIN.cpp" />
+		<Unit filename="Texture.cpp" />
+		<Unit filename="Texture.h" />
+		<Unit filename="button.cpp" />
+		<Unit filename="button.h" />
+		<Unit filename="characters.cpp" />
+		<Unit filename="characters.h" />
+		<Unit filename="functions.cpp" />
+		<Unit filename="functions.h" />
+		<Unit filename="media/Background/Cloud.png" />
+		<Unit filename="media/Background/background.png" />
+		<Unit filename="media/Background/main.png" />
+		<Unit filename="media/Background/moon.png" />
+		<Unit filename="media/Background/star.png" />
+		<Unit filename="media/Buttons/Continue.png" />
+		<Unit filename="media/Buttons/Paused.png" />
+		<Unit filename="media/Buttons/Play.png" />
+		<Unit filename="media/Buttons/Quit.png" />
+		<Unit filename="media/Buttons/menu.png" />
+		<Unit filename="media/Buttons/mmuted.png" />
+		<Unit filename="media/Buttons/munmuted.png" />
+		<Unit filename="media/Buttons/muted.png" />
+		<Unit filename="media/Buttons/replay.png" />
+		<Unit filename="media/Buttons/unmuted.png" />
+		<Unit filename="media/Characters/DeadWolf/0.png" />
+		<Unit filename="media/Characters/DeadWolf/1.png" />
+		<Unit filename="media/Characters/DeadWolf/2.png" />
+		<Unit filename="media/Characters/DeadWolf/3.png" />
+		<Unit filename="media/Characters/DeadWolf/4.png" />
+		<Unit filename="media/Characters/DeadWolf/5.png" />
+		<Unit filename="media/Characters/DeadWolf/6.png" />
+		<Unit filename="media/Characters/DeadWolf/d.png" />
+		<Unit filename="media/Characters/EatingWolf/0.png" />
+		<Unit filename="media/Characters/EatingWolf/1.png" />
+		<Unit filename="media/Characters/EatingWolf/2.png" />
+		<Unit filename="media/Characters/EatingWolf/3.png" />
+		<Unit filename="media/Characters/EatingWolf/4.png" />
+		<Unit filename="media/Characters/EatingWolf/5.png" />
+		<Unit filename="media/Characters/EatingWolf/6.png" />
+		<Unit filename="media/Characters/EatingWolf/d.png" />
+		<Unit filename="media/Characters/Sheep/0.png" />
+		<Unit filename="media/Characters/Sheep/1.png" />
+		<Unit filename="media/Characters/Sheep/2.png" />
+		<Unit filename="media/Characters/Sheep/3.png" />
+		<Unit filename="media/Characters/Sheep/4.png" />
+		<Unit filename="media/Characters/Sheep/5.png" />
+		<Unit filename="media/Characters/Sheep/6.png" />
+		<Unit filename="media/Characters/Sheep/Sheep.psd" />
+		<Unit filename="media/Characters/Wolf/0.png" />
+		<Unit filename="media/Characters/Wolf/1.png" />
+		<Unit filename="media/Characters/Wolf/2.png" />
+		<Unit filename="media/Characters/Wolf/3.png" />
+		<Unit filename="media/Characters/Wolf/4.png" />
+		<Unit filename="media/Characters/Wolf/5.png" />
+		<Unit filename="media/Characters/Wolf/6.png" />
+		<Unit filename="media/Characters/Wolf/d.png" />
+		<Unit filename="media/Characters/checkPoints.png" />
+		<Unit filename="media/Sound/Comical.mp3" />
+		<Unit filename="media/Sound/GameOver.wav" />
+		<Unit filename="media/Sound/bleat.mp3" />
+		<Unit filename="media/Sound/click.wav" />
+		<Unit filename="media/Sound/eating.wav" />
+		<Unit filename="media/Sound/star.wav" />
+		<Unit filename="media/Text/Debrosee.ttf" />
+		<Unit filename="media/Text/Size.bin" />
+		<Unit filename="media/Text/lazy.ttf" />
+		<Unit filename="menu.cpp" />
+		<Unit filename="menu.h" />
+		<Unit filename="preGame.h" />
+		<Unit filename="window.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
