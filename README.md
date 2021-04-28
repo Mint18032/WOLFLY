@@ -20,4 +20,5 @@ WOLFLY is a game which main character is a wolf flying in the sky. You would con
 * Some functions such as functions in class Texture were refer to source code from [lazyfoo.net](https://lazyfoo.net/tutorials/SDL/index.php)
 
 ### Read more
-Setting and function description: [README.txt](https://github.com/Mint18032/WOLFLY/blob/main/WOLFLY/README.txt)
+* Setting and function description: [README.txt](https://github.com/Mint18032/WOLFLY/blob/main/WOLFLY/README.txt)
+* Demo video: https://youtu.be/jPNytSFK8K4
