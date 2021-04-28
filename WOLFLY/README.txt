@@ -8,12 +8,15 @@ Hướng dẫn cài đặt
 	+ Nếu bạn chưa có sẵn các thư viện liên kết (các file .dll) trong System, hãy lấy chúng từ SDL2/bin và thả vào thư mục WOLFLY hoặc System32 (với máy 32 bit)/SysWOW64 (với máy 64 bit).
 	+ Mở WOLFLY.cbp bằng Code::Blocks, trong Project/Build options/Search directories/Compiler xóa đường dẫn cũ và thay bằng đường dẫn tới thư mục include/SDL2.
 					   trong Linkers xóa đường dẫn cũ và thay bằng đường dẫn tới thư mục lib ứng với các thư viện trên.
+- Bên cạnh đó, hãy chắc chắn rằng phần Other linker options trong Project/Build options/Linker settings đã ghi đầy đủ:
+			-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+			
 2. Chạy chương trình:
 - Chọn Build/Rebuild trên thanh điều khiển (hoặc ấn Ctrl-F11), nếu không thành công hãy thử khởi động lại Code::Blocks hoặc kiểm tra lại các thao tác.
 - Sau khi build thành công thì chương trình có thể chạy.
 
 *Lưu ý: - Các tệp, thư mục nằm trong tệp WOLFLY bắt buộc phải có và không được thay đổi để chương trình không phát sinh lỗi khi chạy. Chức năng cụ thể đã được chú thích trong từng tệp.
-	- Các đường dẫn cần thiết nằm trong README.md (https://github.com/Mint18032/WOLFLY/blob/main/README.md).
+	- Các đường dẫn cần thiết và video demo nằm trong README.md (https://github.com/Mint18032/WOLFLY/blob/main/README.md).
 
 Các chức năng chính
 1. Màn hình Menu: 
@@ -48,7 +51,7 @@ Các chức năng chính
 - Thu phóng màn hình: màn hình có thể thu phóng nhưng luôn theo tỉ lệ 17:10, ấn phím ESC trên bàn phím để trở lại kích cỡ mặc định.
 - Lưu kỉ lục: tự động tạo file lưu kỉ lục trong lần đầu chạy chương trình và lưu kỉ lục đó đến khi đạt kỉ lục cao hơn.
 
----------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 (English)
 
 Setting
@@ -59,7 +62,9 @@ Setting
 	+ If you do not have the dinamic linked library files of SDL (.dll files) in your Computer's System, get them from SDL2/bin and move them to WOLFLY or System32 (for 32 bit)/SysWOW64 (for 64 bit).
 	+ Open WOLFLY.cbp with Code::Blocks, in Project/Build options/Search directories/Compiler delete the old path and replace it with the path to the directory include/SDL2.
 					     in Linkers delete the old path and replace it with the path to the lib directory corresponding to the above libraries.
-
+- Make sure that "Other linker options" in Project/Build options/Linker settings had been fully included:
+			-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+			
 Run
 - You have to build the project before running it. Check your operations or restart Code::Blocks if build failed.
 - After having successfully built, the program should run properly.
